@@ -1,5 +1,6 @@
 import './App.css';
 import { HashRouter, Route, Routes } from "react-router-dom";
+import './assets/glassy.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Accueil from './pages/Accueil';
