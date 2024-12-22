@@ -19,7 +19,14 @@
 
 
 
-
+h1 {
+    color: #fbecc5;
+    font-family: "Cinzel", serif;
+    font-size: 5rem;
+    font-weight: 500;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
 
 header {
     position: fixed;
@@ -27,15 +34,16 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    padding: 0 !important;
     top: 1em;
     left: 5%;
+    padding: 0 !important;
     background-color: rgba(255, 255, 255, 0.3) !important;
+    border-radius: 3em !important;
     z-index: 1000;
 }
 
 header nav{
-    width: 50%;
+    width: 40%;
     padding: 1em 2em;
 }
 
@@ -50,6 +58,9 @@ header nav ul{
 
 header nav ul li{
     list-style: none;
+    color: #6b3d24;
+    font-size: large;
+    font-weight: bold;
 }
 
 .logo {
@@ -83,6 +94,7 @@ button {
 button:hover {
     border-color: white;
     background-color: rgba(0, 0, 0, 0.4);
+    scale: 1.1;
     transition: 0.3s;
 }
 button:focus,
@@ -113,10 +125,70 @@ button a:hover{
     margin-bottom: 10%;
 }
 
+#Creme{
+    background-position: center;
+}
+
+#Serum {
+    background-position: center;
+}
+
 #Creme, #Lotion, #Serum {
     position: relative;
     aspect-ratio: 1/1;
     background-size: cover;
+}
+
+#BestSellers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b3d24;
+    color: #fbecc5;
+}
+
+#BestSellers .glassy {
+    padding: 0 3em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+#BestSellers h2 {
+    color: #fbecc5
+}
+
+#BestSellers .col3{
+    width: 70%;
+    margin: auto;
+}
+
+#BestSellers button {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.produit{
+    transition: 0.5s;
+}
+
+.produit:hover{
+    scale: 1.03;
+    transition: 0.3s;
+}
+
+.produit img{
+    aspect-ratio: 1/1;
+    width: 80%;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 30px  rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.produit a {
+    color: #fbecc5;
 }
 
 .link {
@@ -126,5 +198,12 @@ button a:hover{
     color: white;
     font-size: large;
     font-weight: bold;
+    transition: 0.5s;
+}
+
+.link:hover {
+    color: #fbecc5;
+    text-decoration: underline;
+    transition: 0.3s;
 }
 

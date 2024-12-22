@@ -2,6 +2,10 @@ import background from '../assets/images/background.jpg';
 import creme from '../assets/images/Crème Hydratante.jpg';
 import lotion from '../assets/images/lotion.jpg';
 import serum from '../assets/images/serum.jpg';
+import bestSeller1 from '../assets/images/best-seller1.jpg';
+import bestSeller2 from '../assets/images/best-seller2.jpg';
+import bestSeller3 from '../assets/images/best-seller3.jpg';
+
 
 const Accueil = () => {
     return (
@@ -37,22 +41,37 @@ const Accueil = () => {
                     <a href="" className="link">Voir les fiches produit {'>'}</a>
                 </div>
             </div>
-            <div>
+            <div id='BestSellers'>
                 <div className="glassy">
                     <h2>Meilleurs ventes</h2>
                 </div>
                 <div className="col3">
                     <div className="produit">
-                        <img src="" alt="" />
-                        <p></p>
+                        <a href="">
+                            <img src={bestSeller1} alt="" />
+                            <p>
+                                <strong>Crème Hydratante</strong><br />
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
+                        </a>
                     </div>
                     <div className="produit">
-                        <img src="" alt="" />
-                        <p></p>
+                        <a href="">
+                            <img src={bestSeller2} alt="" />
+                            <p>
+                                <strong>Coffret Glassy</strong><br />
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
+                        </a>
                     </div>
                     <div className="produit">
-                        <img src="" alt="" />
-                        <p></p>
+                        <a href="">
+                            <img src={bestSeller3} alt="" />
+                            <p>
+                            <strong>Duo Lotion/After Sun</strong><br />
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
+                        </a>
                     </div>
                 </div>
                 <button>

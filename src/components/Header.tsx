@@ -1,7 +1,9 @@
+import logo from '../assets/images/logo.png';
+
 const Header = () => {
     return (
         <header className="glassy">
-            <img src="" alt="Logo Glassy" className="logo"/>
+            <img src={logo} alt="Logo Glassy" className="logo"/>
             <nav>
                 <ul>
                     <li>
