@@ -1,7 +1,7 @@
 const Header = () => {
     return (
-        <header>
-            <img src="" alt="Logo Glassy" />
+        <header className="glassy">
+            <img src="" alt="Logo Glassy" className="logo"/>
             <nav>
                 <ul>
                     <li>

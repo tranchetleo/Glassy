@@ -1,0 +1,130 @@
+.col2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.w60{
+    width: 60%;
+}
+
+.ma{
+    margin: auto;
+}
+
+
+
+
+
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 0 !important;
+    top: 1em;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    z-index: 1000;
+}
+
+header nav{
+    width: 50%;
+    padding: 1em 2em;
+}
+
+header nav ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+.logo {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glassy {
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px  rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 1em;
+}
+
+button {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px  rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 0.6em 1.2em;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-color: transparent;
+    transition: 0.5s;
+}
+
+button:hover {
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+button a{
+    color: white;
+}
+
+button a:hover{
+    color: white;
+}
+
+#Accueil{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-size: cover;
+}
+
+#Accueil button{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#Creme, #Lotion, #Serum {
+    position: relative;
+    aspect-ratio: 1/1;
+    background-size: cover;
+}
+
+.link {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
