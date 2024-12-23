@@ -1,7 +1,8 @@
 const Footer = () => {
     return (
         <footer>
-            TODO
+            <p>2024 © <a href="/">Glassy</a> | tous droits réservés</p>
+            <p>Une création <a href="https://sani-web.com" target="blank">Sani-web</a></p>
         </footer>
     );
 }

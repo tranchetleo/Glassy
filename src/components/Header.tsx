@@ -3,21 +3,28 @@ import logo from '../assets/images/logo.png';
 const Header = () => {
     return (
         <header className="glassy">
-            <img src={logo} alt="Logo Glassy" className="logo"/>
+            <a href="">
+                <img src={logo} alt="Logo Glassy" className="logo"/>
+            </a>
             <nav>
                 <ul>
                     <li>
-                        Accueil
+                        <a href="/">
+                            Accueil
+                        </a>
                     </li>
                     <li>
-                        Prduits
+                        <a href="/produits">
+                            Produits
+                        </a>
                     </li>
                     <li>
-                        Contact
+                        <a href="/contact">
+                            Contact
+                        </a>
                     </li>
                 </ul>
             </nav>
-
         </header>
     );
 }

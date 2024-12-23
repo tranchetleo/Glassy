@@ -58,9 +58,24 @@ header nav ul{
 
 header nav ul li{
     list-style: none;
+}
+
+header nav ul li a{
     color: #6b3d24;
     font-size: large;
     font-weight: bold;
+    transition: 0.5s;
+}
+
+header nav ul li a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .logo {
@@ -111,7 +126,7 @@ button a:hover{
 }
 
 #Accueil{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -159,7 +174,7 @@ button a:hover{
     color: #fbecc5
 }
 
-#BestSellers .col3{
+#BestSellers .col3, #BestSellers .col2 {
     width: 70%;
     margin: auto;
 }
@@ -171,6 +186,8 @@ button a:hover{
 
 .produit{
     transition: 0.5s;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 .produit:hover{
@@ -189,6 +206,58 @@ button a:hover{
 
 .produit a {
     color: #fbecc5;
+}
+
+.contact {
+    width: 70%;
+    margin: auto;
+}
+
+.contact a {
+    padding: 1em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #6b3d24;
+    font-size: larger;
+    transition: 0.5s;
+}
+
+.contact a:hover {
+    scale: 1.03;
+    transition: 0.3s;
+}
+
+.contact a img {
+    margin-right: 1em;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter input {
+    border: unset;
+    background-color: #fbecc5;
+    color: #6b3d24;
+    font-size: larger;
+    padding: 0.5em;
+    margin: 1em;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px  rgba(0, 0, 0, 0.1);
+}
+
+.newsletter button {
+    margin: 1em;
+}
+
+.newsletter button:hover {
+    scale: 1.02;
+}
+
+.newsletter input:focus-visible {
+    outline: 4px#6b3d24;
 }
 
 .link {

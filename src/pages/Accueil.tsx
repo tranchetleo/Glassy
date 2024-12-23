@@ -1,3 +1,4 @@
+import Contact from '../components/Contact';
 import background from '../assets/images/background.jpg';
 import creme from '../assets/images/Crème Hydratante.jpg';
 import lotion from '../assets/images/lotion.jpg';
@@ -78,6 +79,7 @@ const Accueil = () => {
                     <a href="">Voir tout les produits</a>
                 </button>
             </div>
+            <Contact />
         </>
     );
 }
