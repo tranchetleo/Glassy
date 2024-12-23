@@ -25,7 +25,7 @@ const Produits = () => {
             <div id='BestSellers'>
                 <div className="col3">
                     <div className="produit">
-                        <a href="">
+                        <a href="/produits">
                             <img src={bestSeller1} alt="" />
                             <p>
                                 <strong>Crème Hydratante</strong><br />
@@ -34,7 +34,7 @@ const Produits = () => {
                         </a>
                     </div>
                     <div className="produit">
-                        <a href="">
+                        <a href="/produits">
                             <img src={bestSeller2} alt="" />
                             <p>
                                 <strong>Coffret Glassy</strong><br />
@@ -43,7 +43,7 @@ const Produits = () => {
                         </a>
                     </div>
                     <div className="produit">
-                        <a href="">
+                        <a href="/produits">
                             <img src={bestSeller3} alt="" />
                             <p>
                             <strong>Duo Lotion/After Sun</strong><br />
@@ -54,7 +54,7 @@ const Produits = () => {
                 </div>
                 <div className="col3">
                     <div className="produit">
-                        <a href="">
+                        <a href="/produits">
                             <img src={produit1} alt="" />
                             <p>
                                 <strong>Crème Hydratante</strong><br />
@@ -63,7 +63,7 @@ const Produits = () => {
                         </a>
                     </div>
                     <div className="produit">
-                        <a href="">
+                        <a href="/produits">
                             <img src={produit2} alt="" />
                             <p>
                                 <strong>Coffret Glassy</strong><br />
@@ -72,7 +72,7 @@ const Produits = () => {
                         </a>
                     </div>
                     <div className="produit">
-                        <a href="">
+                        <a href="/produits">
                             <img src={produit3} alt="" />
                             <p>
                             <strong>Duo Lotion/After Sun</strong><br />
@@ -83,7 +83,7 @@ const Produits = () => {
                 </div>
                 <div className="col3">
                     <div className="produit">
-                        <a href="">
+                        <a href="/produits">
                             <img src={produit4} alt="" />
                             <p>
                                 <strong>Crème Hydratante</strong><br />
@@ -92,7 +92,7 @@ const Produits = () => {
                         </a>
                     </div>
                     <div className="produit">
-                        <a href="">
+                        <a href="/produits">
                             <img src={produit5} alt="" />
                             <p>
                                 <strong>Coffret Glassy</strong><br />
@@ -101,7 +101,7 @@ const Produits = () => {
                         </a>
                     </div>
                     <div className="produit">
-                        <a href="">
+                        <a href="/produits">
                             <img src={produit6} alt="" />
                             <p>
                             <strong>Duo Lotion/After Sun</strong><br />
@@ -112,7 +112,7 @@ const Produits = () => {
                 </div>
                 <div className="col2">
                     <div className="produit">
-                        <a href="">
+                        <a href="/produits">
                             <img src={produit7} alt="" />
                             <p>
                                 <strong>Crème Hydratante</strong><br />
@@ -121,7 +121,7 @@ const Produits = () => {
                         </a>
                     </div>
                     <div className="produit">
-                        <a href="">
+                        <a href="/produits">
                             <img src={produit8} alt="" />
                             <p>
                                 <strong>Coffret Glassy</strong><br />
