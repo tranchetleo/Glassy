@@ -20,7 +20,7 @@ const Accueil = () => {
                 </button>
             </div>
             <div className="col2">
-                <div className="glassy w60 ma">
+                <div className="glassy w60 ma" id='descriptionCreme'>
                     <h2>Crème Hydratante</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sapiente molestias voluptatum aspernatur quis est facilis aut velit eos itaque, dignissimos quas laboriosam illo voluptates debitis accusantium, deserunt sit quae.</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas cum ducimus ut, ipsum praesentium unde soluta. Accusamus ipsam nulla, perspiciatis itaque laudantium nesciunt at aliquid eos dolorem error voluptate nemo!</p>

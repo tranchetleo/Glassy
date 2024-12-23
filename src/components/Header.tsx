@@ -3,7 +3,7 @@ import logo from '../assets/images/logo.png';
 const Header = () => {
     return (
         <header className="glassy">
-            <a href="">
+            <a href="/">
                 <img src={logo} alt="Logo Glassy" className="logo"/>
             </a>
             <nav>

@@ -5,17 +5,17 @@ const Contact = () => {
     return(
         <>
             <div className="col2">
-                <div className="glassy w60 ma">
+                <div className="glassy w60 ma" id='contact'>
                     <h2>Contact</h2>
                     <div className='contact'>
                         <a href="mailto:glassy@skin.care">
-                            <img src="https://img.icons8.com/?size=30&id=53383&format=png&color=6b3d24" alt="" />
+                            <img src="https://img.icons8.com/?size=30&id=53388&format=png&color=6b3d24" alt="" />
                             glassy@skin.care
                         </a>
                     </div>
                     <div className='contact'>
                         <a href="https://maps.app.goo.gl/GUgEDf4QjQPgRkWR8">
-                            <img src="https://img.icons8.com/?size=30&id=53388&format=png&color=6b3d24" alt="" />
+                            <img src="https://img.icons8.com/?size=30&id=53383&format=png&color=6b3d24" alt="" />
                             9 rue du Slay, 44000
                         </a>
                     </div>
@@ -35,7 +35,7 @@ const Contact = () => {
                 <div id="Creme" style={{backgroundImage: `url(${contact}`}}>
                 </div>
             </div>
-            <div className="col2">
+            <div className="col2" id='newsletter'>
                 <div id="Creme" style={{backgroundImage: `url(${newsletter}`}}>
                 </div>
                 <div className="glassy w60 ma newsletter">

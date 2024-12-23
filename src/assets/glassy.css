@@ -276,3 +276,69 @@ button a:hover{
     transition: 0.3s;
 }
 
+@media (max-width: 768px) {
+    header nav{
+        width: 70%;
+        padding: 0;
+        margin: auto;
+    }
+
+    header nav ul li a {
+        font-size: small;
+    }
+
+    .logo{
+        padding: 0.5em;
+    }
+
+    h1{
+        font-size: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .col2, .col3{
+        grid-template-columns: 1fr;
+    }
+
+    #Accueil .glassy {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    #Accueil button {
+        margin-bottom: 70%;
+    }
+
+    #descriptionCreme, #contact, .newsletter{
+        width: 80%;
+        margin: 1rem auto;
+    }
+
+    #contact{
+        margin-top: 6rem;
+    }
+
+    .link{
+        top: unset;
+        bottom: 1em;
+    }
+
+    .produit {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    #newsletter div:first-child{
+        order: 3;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+}
+
