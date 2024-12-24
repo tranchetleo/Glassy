@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import background from '../assets/images/background2.jpg';
 import bestSeller1 from '../assets/images/best-seller1.jpg';
 import bestSeller2 from '../assets/images/best-seller2.jpg';
@@ -19,115 +20,115 @@ const Produits = () => {
                     <h1>Produits Skin Care</h1>
                 </div>
                 <button>
-                    <a href="">v Scroll pour voir les produits v</a>
+                    <Link to="">v Scroll pour voir les produits v</Link>
                 </button>
             </div>
             <div id='BestSellers'>
                 <div className="col3">
                     <div className="produit">
-                        <a href="/produits">
+                        <Link to="/produits">
                             <img src={bestSeller1} alt="" />
                             <p>
                                 <strong>Crème Hydratante</strong><br />
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             </p>
-                        </a>
+                        </Link>
                     </div>
                     <div className="produit">
-                        <a href="/produits">
+                        <Link to="/produits">
                             <img src={bestSeller2} alt="" />
                             <p>
                                 <strong>Coffret Glassy</strong><br />
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             </p>
-                        </a>
+                        </Link>
                     </div>
                     <div className="produit">
-                        <a href="/produits">
+                        <Link to="/produits">
                             <img src={bestSeller3} alt="" />
                             <p>
                             <strong>Duo Lotion/After Sun</strong><br />
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             </p>
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className="col3">
                     <div className="produit">
-                        <a href="/produits">
+                        <Link to="/produits">
                             <img src={produit1} alt="" />
                             <p>
                                 <strong>Crème Hydratante</strong><br />
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             </p>
-                        </a>
+                        </Link>
                     </div>
                     <div className="produit">
-                        <a href="/produits">
+                        <Link to="/produits">
                             <img src={produit2} alt="" />
                             <p>
                                 <strong>Coffret Glassy</strong><br />
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             </p>
-                        </a>
+                        </Link>
                     </div>
                     <div className="produit">
-                        <a href="/produits">
+                        <Link to="/produits">
                             <img src={produit3} alt="" />
                             <p>
                             <strong>Duo Lotion/After Sun</strong><br />
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             </p>
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className="col3">
                     <div className="produit">
-                        <a href="/produits">
+                        <Link to="/produits">
                             <img src={produit4} alt="" />
                             <p>
                                 <strong>Crème Hydratante</strong><br />
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             </p>
-                        </a>
+                        </Link>
                     </div>
                     <div className="produit">
-                        <a href="/produits">
+                        <Link to="/produits">
                             <img src={produit5} alt="" />
                             <p>
                                 <strong>Coffret Glassy</strong><br />
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             </p>
-                        </a>
+                        </Link>
                     </div>
                     <div className="produit">
-                        <a href="/produits">
+                        <Link to="/produits">
                             <img src={produit6} alt="" />
                             <p>
                             <strong>Duo Lotion/After Sun</strong><br />
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             </p>
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className="col2">
                     <div className="produit">
-                        <a href="/produits">
+                        <Link to="/produits">
                             <img src={produit7} alt="" />
                             <p>
                                 <strong>Crème Hydratante</strong><br />
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             </p>
-                        </a>
+                        </Link>
                     </div>
                     <div className="produit">
-                        <a href="/produits">
+                        <Link to="/produits">
                             <img src={produit8} alt="" />
                             <p>
                                 <strong>Coffret Glassy</strong><br />
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             </p>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

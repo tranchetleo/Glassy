@@ -1,27 +1,28 @@
+import { Link } from 'react-router-dom';
 import logo from '../assets/images/logo.png';
 
 const Header = () => {
     return (
         <header className="glassy">
-            <a href="/">
+            <Link to="/">
                 <img src={logo} alt="Logo Glassy" className="logo"/>
-            </a>
+            </Link>
             <nav>
                 <ul>
                     <li>
-                        <a href="/">
+                        <Link to="/">
                             Accueil
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/produits">
+                        <Link to="/produits">
                             Produits
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/contact">
+                        <Link to="/contact">
                             Contact
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>

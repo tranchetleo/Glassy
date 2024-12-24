@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
     return (
         <footer>
-            <p>2024 © <a href="/">Glassy</a> | tous droits réservés</p>
-            <p>Une création <a href="https://sani-web.com" target="blank">Sani-web</a></p>
+            <p>2024 © <Link to="/">Glassy</Link> | tous droits réservés</p>
+            <p>Une création <Link to="https://sani-web.com" target="blank">Sani-web</Link></p>
         </footer>
     );
 }

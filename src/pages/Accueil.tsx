@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Contact from '../components/Contact';
 import background from '../assets/images/background.jpg';
 import creme from '../assets/images/Crème Hydratante.jpg';
@@ -16,7 +17,7 @@ const Accueil = () => {
                     <h1>GLASSY SKIN CARE</h1>
                 </div>
                 <button>
-                    <a href="/produits">Voir les produits</a>
+                    <Link to="/produits">Voir les produits</Link>
                 </button>
             </div>
             <div className="col2">
@@ -25,21 +26,21 @@ const Accueil = () => {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sapiente molestias voluptatum aspernatur quis est facilis aut velit eos itaque, dignissimos quas laboriosam illo voluptates debitis accusantium, deserunt sit quae.</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas cum ducimus ut, ipsum praesentium unde soluta. Accusamus ipsam nulla, perspiciatis itaque laudantium nesciunt at aliquid eos dolorem error voluptate nemo!</p>
                     <button>
-                        <a href="/contact">
+                        <Link to="/contact">
                             être informé des nouveautés
-                        </a>
+                        </Link>
                     </button>
                 </div>
                 <div id="Creme" style={{backgroundImage: `url(${creme}`}}>
-                    <a href="/produits" className="link">Voir les fiches produit {'>'}</a>
+                    <Link to="/produits" className="link">Voir les fiches produit {'>'}</Link>
                 </div>
             </div>
             <div className="col2">
                 <div id="Lotion" style={{backgroundImage: `url(${lotion}`}}>
-                    <a href="/produits" className="link">Voir les fiches produit {'>'}</a>
+                    <Link to="/produits" className="link">Voir les fiches produit {'>'}</Link>
                 </div>
                 <div id="Serum" style={{backgroundImage: `url(${serum}`}}>
-                    <a href="/produits" className="link">Voir les fiches produit {'>'}</a>
+                    <Link to="/produits" className="link">Voir les fiches produit {'>'}</Link>
                 </div>
             </div>
             <div id='BestSellers'>
@@ -48,35 +49,35 @@ const Accueil = () => {
                 </div>
                 <div className="col3">
                     <div className="produit">
-                        <a href="/produits">
+                        <Link to="/produits">
                             <img src={bestSeller1} alt="" />
                             <p>
                                 <strong>Crème Hydratante</strong><br />
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             </p>
-                        </a>
+                        </Link>
                     </div>
                     <div className="produit">
-                        <a href="/produits">
+                        <Link to="/produits">
                             <img src={bestSeller2} alt="" />
                             <p>
                                 <strong>Coffret Glassy</strong><br />
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             </p>
-                        </a>
+                        </Link>
                     </div>
                     <div className="produit">
-                        <a href="/produits">
+                        <Link to="/produits">
                             <img src={bestSeller3} alt="" />
                             <p>
                             <strong>Duo Lotion/After Sun</strong><br />
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             </p>
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <button>
-                    <a href="/produits">Voir tout les produits</a>
+                    <Link to="/produits">Voir tout les produits</Link>
                 </button>
             </div>
             <Contact />
